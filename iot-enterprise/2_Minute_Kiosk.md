@@ -1,4 +1,5 @@
 ---
+author: rsameser
 title: 2 Minute Kiosk
 ms.date: 08/28/2020
 ms.topic: article
