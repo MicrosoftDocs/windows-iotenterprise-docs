@@ -1,4 +1,5 @@
 ---
+author: rsameser
 title: Advanced Lockdown Features
 ms.date: 08/28/2020
 ms.topic: article

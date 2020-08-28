@@ -1,4 +1,5 @@
 ---
+author: rsameser
 title: Getting Started with Windows 10 IoT Enterprise
 ms.date: 08/28/2020
 ms.topic: article
