@@ -13,27 +13,12 @@ This documentation will give you an overview on the product and guide you throug
 ## What is Windows 10 IoT Enterprise?
 Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops.  However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Note that Windows 10 IoT Enterprise offers both Long-term Servicing Channel (LTSC) and Semi-Annual Channel (SAC) options. OEMs can choose the version they require for their devices.
 
-### Snapshot of Features offered in Windows 10 IoT Enterprise
-
-> | Feature&nbsp;/&nbsp;Edition | Windows 10 IoT Enterprise  |
-> |-------------|---------|
-> | User experience | Traditional Windows Shell with Advanced Lockdown Features |
-> | Headless supported | Yes |
-> | App architecture supported | Full Windows UI support (e.g. UWP, WinForms, etc) |
-> | Cortana | Yes |
-> | Domain join | AAD and Traditional Domain |
-> | Management | MDM |
-> | Device Security Technologies | [TPM](https://docs.microsoft.com/windows/iot-core/secure-your-device/tpm), [Secure Boot, BitLocker, Device Guard](https://docs.microsoft.com/windows/iot-core/secure-your-device/securebootandbitlocker) and Device Health Attestation |
-> | CPU Architecture support | x86, x64, and ARM | x86 and x64 |
-> | Licensing |  Direct and Indirect Embedded OEM Agreements |
-> | Usage scenarios | Industry Tablets, Retail Point of Service, Kiosk, [Digital Signage](https://www.microsoft.com/windowsforbusiness/digital-signage), ATM, Medical Devices, Manufacturing Devices, Thin Client |
-
 ## Fixed purpose devices
 
 > [!TIP]
 > See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you do not have this licensing agreement, ask the OEM you work with for the commercial agreement.
 
-Windows is well known as the operating systems on laptop and desktops used by consumers and businesses world-wide.  What is less well known is that for years, Windows has also powered many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical Devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build fixed purpose devices with specific allowances and restrictions in the license agreement.  
+Windows is well known as the operating systems on laptop and desktops used by consumers and businesses world-wide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical Devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build fixed purpose devices with specific allowances and restrictions in the license agreement.  
 
 A fixed purpose device differs from a general purpose device in the following ways:  
 * The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.  
