@@ -8,7 +8,9 @@ keywords: IoT Enterprise, binary
 ---
 
 # Getting Started with Windows 10 IoT Enterprise
-This documentation will give you an overview on the product and guide you through how to get started with Windows 10 IoT Enterprise.
+This documentation set will cover the fundamental [technical breakdown](https://docs.microsoft.com/windows/iot-enterprise/Technical_Breakdown) of what's included when you choose to use Windows 10 IoT Enterprise. It will also go into detail about it's [advanced lockdown features](https://docs.microsoft.com/windows/iot-enterprise/Advanced_Lockdown_Features), how to [brand](https://docs.microsoft.com/windows/iot-enterprise/Branding) your IoT devices, how OEM relationships and [licensing](https://docs.microsoft.com/windows/iot-enterprise/Licensing) works and includes [tutorials](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview) on how to set up your devices.
+
+This article will give you an overview on the product and guide you through how to get started with Windows 10 IoT Enterprise.
 
 ## What is Windows 10 IoT Enterprise?
 Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops.  However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Note that Windows 10 IoT Enterprise offers both Long-term Servicing Channel (LTSC) and Semi-Annual Channel (SAC) options. OEMs can choose the version they require for their devices.
