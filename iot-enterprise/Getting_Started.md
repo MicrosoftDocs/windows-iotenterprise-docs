@@ -1,10 +1,10 @@
 ---
-author: rsameser
+author: riames
 title: Getting Started with Windows 10 IoT Enterprise
 ms.date: 09/04/2020
 ms.topic: article
 description: Learn about what Windows 10 IoT Enterprise is and what you can do with it.
-keywords: IoT Enterprise, binary
+keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 ---
 
 # Getting Started with Windows 10 IoT Enterprise
@@ -13,14 +13,18 @@ This documentation set will cover the fundamental [technical breakdown](https://
 This article will give you an overview of the product and guide you through how to get started with Windows 10 IoT Enterprise.
 
 ## What is Windows 10 IoT Enterprise?
-Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops.  However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Note that Windows 10 IoT Enterprise offers both Long-term Servicing Channel (LTSC) and Semi-Annual Channel (SAC) options. OEMs can choose the version they require for their devices.
+Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the world-wide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to licensing and distribution, the desktop version and IoT versions differ.
+
+With the 1903 release, we have created a new edition for Windows 10 IoT Enterprise. In the future, it can unlock IoT scenarios with a tailored feature set. As of the 1903 & 1909 releases, the sole difference between the Desktop and IoT versions is that reserved storage for updates and temporary files isn’t set aside during installation; this allows for the use of smaller storage devices with an identical feature set. Also, with the new keys, the edition will now show up as Windows 10 IoT Enterprise​.
+
+Please note that Windows 10 IoT Enterprise offers both [Long-term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) and [Semi-Annual Channel (SAC)](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#servicing-channels) options. OEMs can choose the version they require for their devices.
 
 ## Fixed purpose devices
 
 > [!TIP]
 > See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you do not have this licensing agreement, ask the OEM you work with for the commercial agreement.
 
-Windows is well known as the operating systems on laptops and desktops used by consumers and businesses world-wide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical Devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build fixed purpose devices with specific allowances and restrictions in the license agreement.  
+Windows is well known as the operating systems on laptops and desktops used by consumers and businesses world-wide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build fixed purpose devices with specific allowances and restrictions in the license agreement.  
 
 A fixed purpose device differs from a general purpose device in the following ways:  
 * The device is locked down to a single application or fixed set of applications through the Assigned Access or Shell Launcher features.  
@@ -40,4 +44,4 @@ Specialized systems, such as PCs that control medical equipment, point-of-sale s
 
 ## Long-Term Support Silicon Details
 
-The Windows 10 IoT Enterprise 2019 release will be an LTSC release. See [here](https://docs.microsoft.com/windows/whats-new/ltsc) for a general description of Windows 10 LTSC and other channels available. You can find details on processor support for each edition and channel of Windows 10 [here](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processor-table).
+The Windows 10 IoT Enterprise LTSC 2019 is the most recent LTSC release. Learn more about the [lifecycle support](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet) and details on [processor support](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) for each edition and channel of Windows 10.
