@@ -1,8 +1,11 @@
 ---
-author: riames
 title: Advanced Lockdown Features
-ms.date: 09/17/2020
+author: rsameser
+ms.author: riameser
+ms.date: 09/25/2020
 ms.topic: article
+ms.prod: windows-iot
+ms.technology: iot
 description: Learn about the Advanced Lockdown Features of Windows 10 IoT Enterprise.
 keywords: Lockdown, AppLocker, Assigned Access, Edge Swipe Policy, Filtering and Controlling, USB Access, Keyboard Filter, Kiosk Mode, Shell Launcher, Unified Write Filter, HORM
 ---
@@ -27,7 +30,7 @@ If your Windows 10 device has a touchscreen, you have the option to swipe from t
 One of the most important safeguards that can be implemented against device tampering, whether that be malware infections or data loss, is restricting USB drives and other peripherals from gaining access to your device. Windows 10 IoT Enterprise gives you the power to set policies to [restrict or allow removable devices](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#allow-or-block-removable-devices), [prevent threats from removable storage](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#prevent-threats-from-removable-storage), create [customized alerts](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#create-customized-alerts-and-response-actions) and response actions to monitor usage of removable devices and even [respond to threats](https://docs.microsoft.com/windows/security/threat-protection/device-control/control-usb-devices-using-intune#respond-to-threats) in real-time.
 
 ## Hibernate Once/Resume Many (HORM)
-You can use the [Hibernate Once/Resume Many (HORM)](https://docs.microsoft.com/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-) feature with [Unified Write Filter (UWF)](https://docs.microsoft.com/windows/iot-enterprise/advanced_lockdown_features#unifiedwritefilter) to start your device in a preconfigured state. When HORM is enabled, your system always resumes and restarts from the last saved hibernation file. A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even in the event of a sudden power loss. To configure the UMF with HORM, check out this [guide](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-#configure-horm).
+You can use the [Hibernate Once/Resume Many (HORM)](https://docs.microsoft.com/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-) feature with [Unified Write Filter (UWF)](https://docs.microsoft.com/windows/iot-enterprise/advanced_lockdown_features#unifiedwritefilter) to start your device in a preconfigured state. When HORM is enabled, your system always resumes and restarts from the last saved hibernation file. A device with HORM enabled can quickly be turned off or shut down, and then restarted into the preconfigured state, even in the event of a sudden power loss. To configure the UMF with HORM, check out this [guide](https://docs.microsoft.com/windows-hardware/customize/enterprise/hibernate-once-resume-many-horm-#configure-horm).
 
 ## Keyboard Filter
 If your devices is being use for a dedicated purpose, it may make sense to ensure that key combinations like 'Ctrl+Alt+Delete' do not alter the operation of the device by locking the screen or using Task Manager to close a running application. Windows 10 IoT Enterprise provides a feature called [Keyboard Filter](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#:~:text=Keyboard%20Filter.%20You%20can%20use%20Keyboard%20Filter%20to,using%20Task%20Manager%20to%20close%20a%20running%20application.) that allows you to suppress undesirable key presses or key combinations. This [guide](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter) will be able to walk you through how to configure, enable or disable the feature to meet your needs.

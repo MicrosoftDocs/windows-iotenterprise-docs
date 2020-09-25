@@ -1,8 +1,11 @@
 ---
-author: rsameser
 title: Technical Breakdown
-ms.date: 09/11/2020
+author: rsameser
+ms.author: riameser
+ms.date: 09/25/2020
 ms.topic: article
+ms.prod: windows-iot
+ms.technology: iot
 description: Learn about what Technical Components of Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Cloud Connectivity, Deployment Framework, Device Drivers, Device Management, Networking, OEM Software, Security, Updates, Windows Analytics, Zero Exhaust
 ---
