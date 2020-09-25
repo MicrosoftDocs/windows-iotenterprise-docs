@@ -1,8 +1,10 @@
 ---
 title: Branding Features
+author: rsameser
 ms.author: riameser
 ms.date: 09/25/2020
 ms.topic: article
+ms.prod: windows-iot
 ms.technology: iot
 description: Learn about the Branding Features of Windows 10 IoT Enterprise.
 keywords: Branding, Custom Logon, Layout Control, Microsoft Store Access, Settings Page Visibility, Touch Keyboard, Unbranded Boot, Update Notification
