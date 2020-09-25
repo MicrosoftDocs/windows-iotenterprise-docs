@@ -1,8 +1,11 @@
 ---
-author: riames
 title: Advanced Lockdown Features
-ms.date: 09/17/2020
+author: rsameser
+ms.author: riameser
+ms.date: 09/25/2020
 ms.topic: article
+ms.prod: windows-iot
+ms.technology: iot
 description: Learn about the Advanced Lockdown Features of Windows 10 IoT Enterprise.
 keywords: Lockdown, AppLocker, Assigned Access, Edge Swipe Policy, Filtering and Controlling, USB Access, Keyboard Filter, Kiosk Mode, Shell Launcher, Unified Write Filter, HORM
 ---
