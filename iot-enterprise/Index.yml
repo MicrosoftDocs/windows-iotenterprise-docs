@@ -72,7 +72,7 @@ conceptualContent:
     - title: Windows 10 IoT Core Services
       links:
         - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iotcoreservicesoverview
-          itemType: Overview
+          itemType: overview
           text: What is Windows 10 IoT Core Services?
         - url: https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#long-term-servicing-channel
           itemType: overview
