@@ -41,17 +41,17 @@ conceptualContent:
   items:
     - title: Windows 10 IoT Enterprise
       links:
-        - url: ./Getting_Started
+        - url: ./Getting_Started.md
           itemType: overview
           text: What is Windows 10 IoT Enterprise?
         - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-enterprise
           itemType: how-to-guide
           text: Windows 10 IoT Enterprise Manufacturing Guide
-        - url: ./Advanced_Lockdown_Features
+        - url: ./Advanced_Lockdown_Features.md
           itemType: concept
           text: Advanced Lockdown Features
       footerLink:
-        url: ./Getting_Started
+        url: ./Getting_Started.md
         text: See more
 
     - title: Windows 10 IoT Core
