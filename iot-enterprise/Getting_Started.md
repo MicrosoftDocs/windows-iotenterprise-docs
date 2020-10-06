@@ -20,7 +20,7 @@ Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterpri
 
 With the 1903 release, we have created a new edition for Windows 10 IoT Enterprise. In the future, it can unlock IoT scenarios with a tailored feature set. As of the 1903 & 1909 releases, the sole difference between the Desktop and IoT versions is that reserved storage for updates and temporary files isn’t set aside during installation; this allows for the use of smaller storage devices with an identical feature set. Also, with the new keys, the edition will now show up as Windows 10 IoT Enterprise​.
 
-Please note that Windows 10 IoT Enterprise offers both [Long-term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) and [Semi-Annual Channel (SAC)](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#servicing-channels) options. OEMs can choose the version they require for their devices.
+Please note that Windows 10 IoT Enterprise offers both [Long-term Servicing Channel (LTSC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) and [Semi-Annual Channel (SAC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels) options. OEMs can choose the version they require for their devices.
 
 ## Fixed purpose devices
 
@@ -47,4 +47,4 @@ Specialized systems, such as PCs that control medical equipment, point-of-sale s
 
 ## Long-Term Support Silicon Details
 
-The Windows 10 IoT Enterprise LTSC 2019 is the most recent LTSC release. Learn more about the [lifecycle support](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet) and details on [processor support](https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) for each edition and channel of Windows 10.
+The Windows 10 IoT Enterprise LTSC 2019 is the most recent LTSC release. Learn more about the [lifecycle support](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet) and details on [processor support](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) for each edition and channel of Windows 10.
