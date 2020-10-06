@@ -2,7 +2,7 @@
 title: Technical Breakdown
 author: rsameser
 ms.author: riameser
-ms.date: 09/25/2020
+ms.date: 10/06/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -27,7 +27,17 @@ IoT solutions are built on cloud computing. The ability to communicate with the 
 In order to deploy your Windows 10 IoT Enterprise solution, follow this step-by-step guide on [GitHub](https://github.com/ms-iot/windows-iotent-deploy).
 
 ## Device Drivers
-Device drivers are essential for any IoT devices. With Windows 10 IoT Enterprise, you can add device drivers to a Windows image before, during, or after you deploy the image. When planning how to add drivers to your Windows deployment, it's important to understand how driver folders are added to the image, how driver ranking affects deployment, and the digital signature requirements for drivers. To understand more about how to add drivers, check out the following article, [Device Drivers](https://docs.microsoft.com/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
+Device Drivers are essential for any IoT device. This section outlines how to write device drivers, how to driver signing works in Windows 10 IoT Enterprise (this is different than traditional client signing), and how to add device drivers to images.  
+
+### How to Write Device Drivers
+Windows contains [built-in drivers](https://docs.microsoft.com/windows-hardware/drivers/gettingstarted/do-you-need-to-write-a-driver-) for many device types. If there is a built-in driver for your device type, you won't need to write your own driver. Your device can use the built-in driver. However if you need to write a device driver for your device, please leverage the [Windows Driver Kit (WDK)](https://docs.microsoft.com/windows-hardware/drivers/ddi/).  
+
+### Device Signing
+In Windows 10 IoT Enterprise, the device signing process is different than the [traditional client signing](https://docs.microsoft.com/windows-hardware/drivers/install/driver-signing ) process.  
+[Insert the steps, and explain the difference for IoT Enterprise requirements here]
+
+### How to Add Device Drivers to Images
+With Windows 10 IoT Enterprise, you can add device drivers to a Windows image before, during, or after you deploy the image. When planning how to add drivers to your Windows deployment, it's important to understand how driver folders are added to the image, how driver ranking affects deployment, and the digital signature requirements for drivers. To understand more about how to add drivers, check out the following article, [Device Drivers](https://docs.microsoft.com/windows-hardware/manufacture/desktop/device-drivers-and-deployment-overview).
 
 ## Device Management
 Managing a device is now easier than ever on Windows 10 IoT Enterprise. Through Mobile Device Management (MDM) you have full control which devices are enrolled in various policies. Check out [What's new in mobile device enrollment and management](https://docs.microsoft.com/windows/client-management/mdm/new-in-windows-mdm-enrollment-management#whatsnew10) to further understand the capabilities that are being offered. Also, [enrolling](https://docs.microsoft.com/windows/client-management/mdm/mobile-device-enrollment) and [disabling](https://docs.microsoft.com/windows/client-management/mdm/mobile-device-enrollment#disable-mdm-enrollments) MDM policies are also now easier than ever.
