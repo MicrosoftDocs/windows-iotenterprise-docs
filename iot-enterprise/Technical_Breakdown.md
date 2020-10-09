@@ -2,7 +2,7 @@
 title: Technical Breakdown
 author: rsameser
 ms.author: riameser
-ms.date: 10/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
