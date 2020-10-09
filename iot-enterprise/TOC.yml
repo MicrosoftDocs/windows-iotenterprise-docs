@@ -19,6 +19,10 @@
     href: 2_Minute_Kiosk.md
 - name: Licensing
   href: Licensing.md
+- name: Best Practices
+  href: Best_Practices.md
+- name: Frequently Asked Questions
+  href: FAQ.md
 - name: Release Notes
   href: Release_Notes.md
 - name: Accessibility
